@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(4, 250, 4);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+label {
+    display: block;
+    width: 90%;
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+    margin: 10px 0;
+    margin: 10px auto;
+
+}
+
+input {
+    display: block;
+    height: 57px;
+    width: 90%;
+    margin: 10px auto;
+    border: 5px solid yellow;
+    border-radius: 5px;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+input:focus{
+    color: chartreuse;
+    font-size: 40px;
+    background-color: green;
+    border: 5px solid rgb(231, 6, 213);
+    outline-color: maroon;
+}
+
+.BTN{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn {
+    background-color: rgb(243, 121, 7);
+    margin: 0 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(6, 245, 225);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover{
+   background-color: rgb(159, 243, 3);
+}
